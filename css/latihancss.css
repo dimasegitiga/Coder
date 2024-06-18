@@ -1,0 +1,135 @@
+.head-container{
+    background-image: url(/assets/cyberpunk.jpg);
+    background-size: cover;
+    height: 50em;
+    text-align: center;
+}
+
+.head-container p{
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+}
+
+.text-vertical{
+    display: inline-block;
+    height: 50em;
+    vertical-align: middle;
+}
+
+.menu{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    padding: 15px;
+}
+
+.menu:hover{
+    background-color: green;
+}
+
+
+.navbar{
+    list-style: none;
+    background-color: black;
+    text-align: right;
+    height: 50px;
+}
+
+.navbar ul{
+    margin: 0;
+}
+
+#avatar{
+    list-style: none;
+    float: left;
+    padding: 5px;
+}
+
+.img-avatar{
+    width: 40px;
+}
+
+.about-me{
+    padding: 2em 0;
+}
+
+.konten1, .konten2, .konten3{
+    text-align: center;
+}
+
+.konten2, .konten3{
+    width: 49.5%;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 5em;
+}
+
+.isi-konten{
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 20em;
+    margin: 1em auto;
+    text-align: justify;
+}
+
+.isi-konten p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.img-aboutme{
+    max-width: 10em;
+    overflow-clip-margin: content-box;
+}
+
+.portofolio{
+    margin: 5em 0;
+    text-align: center;
+}
+
+.img-porto1, .img-porto2{
+    margin: 3em 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.img-porto1{
+    width: 200px;
+    height: 200px;
+}
+
+.img-porto2{
+    width: 300px;
+    height: 300px;
+}
+
+input[type=text]{
+    width: 30%;
+    padding: 10px 18px;
+}
+
+textarea{
+    width: 31.9%;
+}
+
+.cp{
+    margin: 0.5em;
+    width: 2em;
+    vertical-align: middle;
+}
+
+.test{
+    margin-top: 5em;
+    background-color: seagreen;
+    text-align: center;
+}
+
+.coba{
+    color: white;
+}
